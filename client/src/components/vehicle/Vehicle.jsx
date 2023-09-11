@@ -3,15 +3,15 @@ import Lancha from "../../images/Lancha.jpg";
 import Camion from "../../images/camion.jpg";
 import styles from "../vehicle/vehicle.module.css"
 
-const vehicle = () => {
+const vehicle = ({ navigate }) => {
   return (
     <div className={styles.primary_container}>
       <div className={styles.secondary_container}>
         <div className={styles.image_container}>
-          <img src={Lancha} className={styles.image} />
+          <img src={Lancha} className={styles.image} onClick={() => navigate("/vehicle")} />
           <text> Lancha </text>
         </div>
-        <div className={styles.secondary_container}>
+        <div className={styles.image_container}>
           <img src={Camion} className={styles.image} />
           <button> Camion </button>
         </div>
