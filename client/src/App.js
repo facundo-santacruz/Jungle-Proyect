@@ -8,7 +8,6 @@ import Vehicle from './components/vehicle/Vehicle';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Vehicle />
     </div>
   );
