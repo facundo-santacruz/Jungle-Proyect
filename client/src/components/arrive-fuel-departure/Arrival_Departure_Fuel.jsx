@@ -11,13 +11,13 @@ const Arrival_Departure_Fuel = ({ text }) => {
                     <img src={Lancha} className={styles.image} />
                     <text> LLegada {text} </text>
                 </div>
-                <div className={styles.secondary_container}>
+                <div className={styles.image_container}>
                     <img src={Camion} className={styles.image} />
-                    <button> Salida {text} </button>
+                    <text> Salida {text} </text>
                 </div>
-                <div className={styles.secondary_container}>
+                <div className={styles.image_container}>
                     <img src={Camion} className={styles.image} />
-                    <button> Combustible {text} </button>
+                    <text> Combustible {text} </text>
                 </div>
             </div>
         </div>
